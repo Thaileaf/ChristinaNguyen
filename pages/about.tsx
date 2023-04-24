@@ -14,9 +14,9 @@ export default function About() {
       <div className={"p-5 flex items-center justify-between max-w-7xl my-auto mx-auto border-t-4 border-grey"}>
         <div>
           <p>
-            Hello! My name is Christina Nguyen and I'm a Graphic Design student currently pursuing my degree at San Jose University. As a beginner in the field, I'm eager to explore the world of visual communication and its power to shape perceptions, tell stories, and inspire change. My educational journey has so far introduced me to a range of design concepts, software tools, and techniques. I thrive on challenges and am committed to learning new skills and staying updated with industry trends.
+            Hello! My name is Christina Nguyen and I&apos;m a Graphic Design student currently pursuing my degree at San Jose University. As a beginner in the field, I&apos;m eager to explore the world of visual communication and its power to shape perceptions, tell stories, and inspire change. My educational journey has so far introduced me to a range of design concepts, software tools, and techniques. I thrive on challenges and am committed to learning new skills and staying updated with industry trends.
             <br/><br/><br/>
-            Outside of the classroom, I love experimenting with personal design projects, attending design workshops, and exploring the arts in various forms. I'm excited to continue developing my unique design style and look forward to collaborating with others to create meaningful and visually captivating work.
+            Outside of the classroom, I love experimenting with personal design projects, attending design workshops, and exploring the arts in various forms. I&apos;m excited to continue developing my unique design style and look forward to collaborating with others to create meaningful and visually captivating work.
           </p>
         </div>
         <div>

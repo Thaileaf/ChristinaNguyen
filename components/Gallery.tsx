@@ -16,7 +16,7 @@ export default function Gallery({}: Props) {
     return(
         <div className={" flex flex-wrap items-center justify-center mx-auto space-x-12 space-y-20"}>
             {/*<Image.PreviewGroup>*/}
-                {filePaths.map(file => <Image style={{ objectFit: 'contain' }} width={200} height={200} src={"/"+file}/>)}
+                {filePaths.map(file => <Image key={file} style={{ objectFit: 'contain' }} width={200} height={200} src={"/"+file}/>)}
 
             {/*</Image.PreviewGroup>*/}
 
