@@ -21,7 +21,7 @@ export default function Header({}: Props) {
                 </button>
             </div>
             <div className={"flex flex-row items-center justify-between space-x-20"}>
-                {headerButtons.map(({title, link}) => <HeaderButton key={title} title={title} link={link}/>)}
+                {headerButtons.map((prop) => <HeaderButton key={prop.title} {...prop}/>)}
             </div>
 
 
