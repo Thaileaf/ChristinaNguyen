@@ -1,7 +1,10 @@
 import React from "react";
 import Link from 'next/link'
 
-type Props = {};
+type Props = {
+  title:string,
+  link:string,
+};
 
 
 export default function HeaderButton({title, link}: Props) {
