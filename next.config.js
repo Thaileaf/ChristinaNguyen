@@ -3,11 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-const isProd = process.env.NODE_ENV === 'production'
+const isProd = true
 
-const repo = "gfportfolio.github.io"
-const assetPrefix = `/${repo}/`
-const basePath = `/${repo}`
+const repo = isProd ? "ChristinaNguyen" : ''
+const assetPrefix = isProd ? `/${repo}/` : /assets/
+const basePath = isProd ? `/${repo}` : ''
 
 
 module.exports = {
