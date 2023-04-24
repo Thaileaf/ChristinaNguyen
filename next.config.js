@@ -11,8 +11,8 @@ const basePath = isProd ? `/${repo}` : ''
 
 
 module.exports = {
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+  assetPrefix: "/ChristinaNguyen/",
+  basePath: "/ChristinaNguyen",
   images: {
     unoptimized: true,
   },
