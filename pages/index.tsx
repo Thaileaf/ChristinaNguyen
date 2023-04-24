@@ -14,11 +14,11 @@ export default function Home() {
       <div className={"p-5 flex items-center justify-between max-w-7xl my-auto mx-auto z-20 border-t-4 border-grey"}>
         <div className={"flex items-start justify-evenly space-x-6"}>
           <div>
-            <Image style={{ objectFit: 'cover' }} width={500} height={500} src={"/6.png"} preview={false}/>
+            <Image style={{ objectFit: 'cover' }} width={500} height={500} src={"/ChristinaNguyen/6.png"} preview={false}/>
           </div>
           <div className={"flex flex-col justify-between space-y-12"}>
-            <Image width={225} height={225} src={"/1.png"} preview={false}/>
-            <Image style={{ objectFit: 'cover' }} width={225} height={225} src={"/7.png"} preview={false}/>
+            <Image width={225} height={225} src={"/ChristinaNguyen/1.png"} preview={false}/>
+            <Image style={{ objectFit: 'cover' }} width={225} height={225} src={"/ChristinaNguyen/7.png"} preview={false}/>
 
           </div>
         </div>

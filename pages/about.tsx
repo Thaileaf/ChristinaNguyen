@@ -18,7 +18,7 @@ export default function About() {
           </p>
         </div>
         <div>
-          <Image height={800} width={550} src={"/9.jpg"} preview={false}/>
+          <Image height={800} width={550} src={"/ChristinaNguyen/9.jpg"} preview={false}/>
         </div>
 
       </div>
